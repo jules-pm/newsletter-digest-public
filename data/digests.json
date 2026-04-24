@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-04-23",
+    "top3": [
+      "Example takeaway one: a synthetic sample entry demonstrating the top-of-digest summary line. Replace with your own when the scheduled task first runs.",
+      "Example takeaway two: another sample line showing the voice and density the agent aims for — punchy, specific, with numbers where they exist.",
+      "Example takeaway three: the third slot rounds out the daily scan — typically a thematic or contrarian take."
+    ],
+    "convergence": "Example thematic call-out: when 2+ items cluster around the same idea, the agent surfaces the pattern here.",
+    "news": [
+      {
+        "takeaway": "<strong>Example news item — demonstrates the takeaway shape. HTML is allowed for <code>inline formatting</code>, <strong>emphasis</strong>, and light structure.</strong>",
+        "verdict": "read in full",
+        "sources": [
+          {
+            "publication": "Example Newsletter",
+            "author": "Sample Author",
+            "date": "Apr 22",
+            "subscription": "free",
+            "gist": "One-line gist describing what this specific source contributed to the takeaway above."
+          },
+          {
+            "publication": "Another Example Newsletter",
+            "author": "",
+            "date": "Apr 23",
+            "subscription": "paid",
+            "gist": "Complementary source — shows how multiple publications can share a takeaway."
+          }
+        ]
+      },
+      {
+        "takeaway": "<strong>Second example news item — shows the template rendering with two entries. Your real digests will have up to 5.</strong>",
+        "verdict": "worth skimming",
+        "sources": [
+          {
+            "publication": "Demo Digest",
+            "author": "Jane Q. Sample",
+            "date": "Apr 22",
+            "subscription": "lapsed",
+            "gist": "Subscription tag <em>lapsed</em> signals the source is referenced but the reader is not currently paying for it."
+          }
+        ]
+      }
+    ],
+    "alerts": [
+      { "headline": "Example alert", "detail": "Alerts are short one-liners surfacing time-sensitive events: launches, outages, policy shifts." }
+    ],
+    "jobs": [
+      { "kind": "role", "role": "Example PM Role", "company": "Example Co", "source": "Example Newsletter", "source_date": "Apr 21" },
+      { "kind": "deep-dive", "company": "Example Startup (Series B context)", "source": "Example Newsletter", "source_date": "Apr 23" },
+      { "kind": "roundup", "theme": "AI-native PM roles roundup", "source": "Example Newsletter", "source_date": "Apr 19" }
+    ],
+    "also_seen": "Optional footer for items that didn't rank but were worth noting.",
+    "stats": {
+      "threads_scanned": 42,
+      "senders": 12,
+      "paid": 3,
+      "lapsed": 2
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "top3": [
+      "Archived example entry — demonstrates how past digests appear under the Archive section.",
+      "Second archive line.",
+      "Third archive line."
+    ],
+    "news": [
+      {
+        "takeaway": "<strong>Archived news item for the preview.</strong>",
+        "verdict": "digest only",
+        "sources": [
+          {
+            "publication": "Example Newsletter",
+            "author": "Sample Author",
+            "date": "Apr 21",
+            "subscription": "free",
+            "gist": "Archived gist."
+          }
+        ]
+      }
+    ],
+    "alerts": [],
+    "jobs": [],
+    "stats": {
+      "threads_scanned": 38,
+      "senders": 10,
+      "paid": 3,
+      "lapsed": 2
+    }
+  }
+]
